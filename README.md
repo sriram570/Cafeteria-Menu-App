@@ -3,4 +3,4 @@ Mobile web app to display the food menu of various cafeterias
 
 Developed using Sencha Touch - a MVC-based JavaScript mobile web app framework.
 
-Web prototype available at: [http://amritacanteen.net46.net/](http://amritacanteen.net46.net/)
+Web prototype available at [http://amritacanteen.net46.net/](http://amritacanteen.net46.net/)
