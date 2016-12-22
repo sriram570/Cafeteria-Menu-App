@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Canteen</title>
+<style>html, body{height:100%;background-color:#d3d3d3;}
+#appLoadingIndicator{position:absolute;top:50%;margin-top:-15px;text-align:center;width:100%;height:30px;-webkit-animation-name:appLoadingIndicator;-webkit-animation-duration:0.5s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-moz-animation-name:appLoadingIndicator;-moz-animation-duration:0.5s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;}
+#appLoadingIndicator > *{background-color:#FFFFFF;display:inline-block;height:30px;-webkit-border-radius:15px;border-radius:15px;margin:0 5px;width:30px;opacity:0.8;}
+@-webkit-keyframes appLoadingIndicator{0%{opacity:0.8}
+50%{opacity:0}
+100%{opacity:0.8}
+}
+@-moz-keyframes appLoadingIndicator{0%{opacity:0.8}
+50%{opacity:0}
+100%{opacity:0.8}
+}</style>
+<link rel=icon href="resources/images/icon.png" type="image/x-icon">
+<link rel="stylesheet" href="src/Ext.ux.touch.Rating.css" type="text/css">
+<link href="resources/css/touch.css" rel=stylesheet type="text/css"/>
+</head>
+<body>
+<div id="appLoadingIndicator">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<script src="http://cdn.sencha.com/touch/sencha-touch-2.2.0/sencha-touch-all-debug.js"></script>
+<script async src="src/Ext.ux.touch.Rating.js"></script>
+<script async src="app.js"></script>
+</body>
+</html>
